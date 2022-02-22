@@ -1,0 +1,28 @@
+#Tarea: Realizar un programa básico en Python
+import numpy as np
+import matplotlib.pyplot as plt
+print("Hola, bienvenido a mi primer programa en Python")
+print("Mi nombre es Sebastián Cruz")
+print()
+print("¿Cuál es tu nombre?")
+NOMBRE=input("Introduce tu nombre:")
+print()
+print("Mucho gusto", NOMBRE, "espero que te guste mi primer programa", end=".")
+print("Hoy haremos operaciones matemáticas sencillas.")
+print("Empezaremos con una suma, a continuación puedes poner los valores que deseas sumar.")
+sumando1 = int(input("Introduzca el primer sumando: "))
+sumando2 = int(input("Introduzca el segundo sumando: "))
+suma=sumando1+sumando2
+print("Resultado de la suma: ", suma)
+print()
+print("Ahora vamos con una resta")
+minuendo = float(input("Introduzca el minuendo: "))
+sustraendo = float(input("Introduzca el sustraendo: "))
+print("Resultado de la resta: ", minuendo - sustraendo)
+print()
+print("Por último, vamos con una multiplicación")
+mult1 = float(input("Introduzca el mult1: "))
+mult2 = float(input("Introduzca el mult2: "))
+print("Resultado de la multiplicación: ", mult1*mult2)
+print()
+print("Gracias por tu participación, espero que te haya gustado :)")
